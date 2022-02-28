@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		DFBEBC0627B4F28F0022FA87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEBC0527B4F28F0022FA87 /* AppDelegate.swift */; };
 		DFBEBC0827B4F28F0022FA87 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEBC0727B4F28F0022FA87 /* SceneDelegate.swift */; };
-		DFBEBC0A27B4F28F0022FA87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEBC0927B4F28F0022FA87 /* ViewController.swift */; };
-		DFBEBC0D27B4F28F0022FA87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFBEBC0B27B4F28F0022FA87 /* Main.storyboard */; };
+		DFBEBC0A27B4F28F0022FA87 /* ArtistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEBC0927B4F28F0022FA87 /* ArtistTableViewController.swift */; };
 		DFBEBC0F27B4F2960022FA87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFBEBC0E27B4F2960022FA87 /* Assets.xcassets */; };
 		DFBEBC1227B4F2960022FA87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFBEBC1027B4F2960022FA87 /* LaunchScreen.storyboard */; };
+		DFBEBC1E27B4F60B0022FA87 /* MusicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEBC1D27B4F60B0022FA87 /* MusicTableViewCell.swift */; };
+		DFBEBC2127B562D80022FA87 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEBC2027B562D80022FA87 /* Artist.swift */; };
+		DFBEBC2427B563D60022FA87 /* Agnes Obel - September Song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DFBEBC2327B563D60022FA87 /* Agnes Obel - September Song.mp3 */; };
+		DFBEBC2727B564610022FA87 /* Brian Eno - An Ending (Ascent).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DFBEBC2627B564610022FA87 /* Brian Eno - An Ending (Ascent).mp3 */; };
+		DFBEBC2A27B574190022FA87 /* ArtistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEBC2927B574190022FA87 /* ArtistViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DFBEBC0227B4F28F0022FA87 /* TSD6UISlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSD6UISlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFBEBC0527B4F28F0022FA87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFBEBC0727B4F28F0022FA87 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DFBEBC0927B4F28F0022FA87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DFBEBC0C27B4F28F0022FA87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFBEBC0927B4F28F0022FA87 /* ArtistTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistTableViewController.swift; sourceTree = "<group>"; };
 		DFBEBC0E27B4F2960022FA87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFBEBC1127B4F2960022FA87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFBEBC1327B4F2960022FA87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFBEBC1D27B4F60B0022FA87 /* MusicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTableViewCell.swift; sourceTree = "<group>"; };
+		DFBEBC2027B562D80022FA87 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		DFBEBC2327B563D60022FA87 /* Agnes Obel - September Song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Agnes Obel - September Song.mp3"; sourceTree = "<group>"; };
+		DFBEBC2627B564610022FA87 /* Brian Eno - An Ending (Ascent).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Brian Eno - An Ending (Ascent).mp3"; sourceTree = "<group>"; };
+		DFBEBC2927B574190022FA87 /* ArtistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +66,41 @@
 			children = (
 				DFBEBC0527B4F28F0022FA87 /* AppDelegate.swift */,
 				DFBEBC0727B4F28F0022FA87 /* SceneDelegate.swift */,
-				DFBEBC0927B4F28F0022FA87 /* ViewController.swift */,
-				DFBEBC0B27B4F28F0022FA87 /* Main.storyboard */,
+				DFBEBC2E27B5744A0022FA87 /* ViewController */,
+				DFBEBC1D27B4F60B0022FA87 /* MusicTableViewCell.swift */,
+				DFBEBC2D27B5743B0022FA87 /* Model */,
+				DFBEBC2F27B574670022FA87 /* Audio */,
 				DFBEBC0E27B4F2960022FA87 /* Assets.xcassets */,
 				DFBEBC1027B4F2960022FA87 /* LaunchScreen.storyboard */,
 				DFBEBC1327B4F2960022FA87 /* Info.plist */,
 			);
 			path = TSD6UISlider;
+			sourceTree = "<group>";
+		};
+		DFBEBC2D27B5743B0022FA87 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DFBEBC2027B562D80022FA87 /* Artist.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DFBEBC2E27B5744A0022FA87 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DFBEBC0927B4F28F0022FA87 /* ArtistTableViewController.swift */,
+				DFBEBC2927B574190022FA87 /* ArtistViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		DFBEBC2F27B574670022FA87 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				DFBEBC2327B563D60022FA87 /* Agnes Obel - September Song.mp3 */,
+				DFBEBC2627B564610022FA87 /* Brian Eno - An Ending (Ascent).mp3 */,
+			);
+			path = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +162,8 @@
 			files = (
 				DFBEBC1227B4F2960022FA87 /* LaunchScreen.storyboard in Resources */,
 				DFBEBC0F27B4F2960022FA87 /* Assets.xcassets in Resources */,
-				DFBEBC0D27B4F28F0022FA87 /* Main.storyboard in Resources */,
+				DFBEBC2727B564610022FA87 /* Brian Eno - An Ending (Ascent).mp3 in Resources */,
+				DFBEBC2427B563D60022FA87 /* Agnes Obel - September Song.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +174,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFBEBC0A27B4F28F0022FA87 /* ViewController.swift in Sources */,
+				DFBEBC0A27B4F28F0022FA87 /* ArtistTableViewController.swift in Sources */,
 				DFBEBC0627B4F28F0022FA87 /* AppDelegate.swift in Sources */,
 				DFBEBC0827B4F28F0022FA87 /* SceneDelegate.swift in Sources */,
+				DFBEBC2127B562D80022FA87 /* Artist.swift in Sources */,
+				DFBEBC1E27B4F60B0022FA87 /* MusicTableViewCell.swift in Sources */,
+				DFBEBC2A27B574190022FA87 /* ArtistViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DFBEBC0B27B4F28F0022FA87 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DFBEBC0C27B4F28F0022FA87 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DFBEBC1027B4F2960022FA87 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
